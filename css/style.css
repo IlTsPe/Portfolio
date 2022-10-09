@@ -1308,10 +1308,6 @@ body {
   border-color: rgb(22, 235, 22);
 }
 
-.check:checked {
-  background: #000;
-}
-
 .dis_btn {
   background-color: #a8a8a8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
@@ -1534,6 +1530,7 @@ body {
   }
 
   .about__info {
+    margin-top: 20px;
     margin-left: 0px;
   }
 
@@ -1682,6 +1679,12 @@ body {
     right: 20px;
     width: 40px;
     height: 40px;
+  }
+}
+
+@media (max-height: 900px) {
+  .menu__social {
+    bottom: 9%;
   }
 }
 
