@@ -21,7 +21,7 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="img/icons/favicon//ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="css/style.min.css?_v=20221009142930">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221010120057">
 	<title>Portfolio</title>
 </head>
 <body>
@@ -278,12 +278,30 @@
 			<h2 class="title title_middle">Мои работы</h2>
 		</div>
 		<div class="portfolio__wrapper">
-			<a href="#!" class="portfolio__item"><picture><source srcset="img/works/uber.webp" type="image/webp"><img src="img/works/uber.jpg" alt="Uber"class="portfolio__item_img"></picture></a>
-			<a href="#!" class="portfolio__item"><picture><source srcset="img/works/pulse.webp" type="image/webp"><img src="img/works/pulse.jpg" alt="Pulse"class="portfolio__item_img"></picture></a>
-			<a href="#!" class="portfolio__item"><picture><source srcset="img/works/bread.webp" type="image/webp"><img src="img/works/bread.jpg" alt="Bread"class="portfolio__item_img"></picture></a>
-			<a href="#!" class="portfolio__item plans-col"><picture><source srcset="img/works/plans.webp" type="image/webp"><img src="img/works/plans.jpg" alt="Plans" class="portfolio__item_img"></picture></a>
-			<a href="#!" class="portfolio__item"><picture><source srcset="img/works/ipad.webp" type="image/webp"><img src="img/works/ipad.jpg" alt="Ipad"class="portfolio__item_img"></picture></a>
-			<a href="#!" class="portfolio__item mac-row"><picture><source srcset="img/works/mac.webp" type="image/webp"><img src="img/works/mac.jpg" alt="Mac"class="portfolio__item_img"></picture></a>
+			<a href="#!" class="portfolio__item">
+				<picture><source srcset="img/works/uber.webp" type="image/webp"><img src="img/works/uber.jpg" alt="Uber"class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Uber</div>
+			</a>
+			<a href="#!" class="portfolio__item">
+				<picture><source srcset="img/works/pulse.webp" type="image/webp"><img src="img/works/pulse.jpg" alt="Pulse"class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Pusle</div>
+			</a>
+			<a href="#!" class="portfolio__item">
+				<picture><source srcset="img/works/bread.webp" type="image/webp"><img src="img/works/bread.jpg" alt="Bread"class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Bread</div>
+			</a>
+			<a href="#!" class="portfolio__item plans-col">
+				<picture><source srcset="img/works/plans.webp" type="image/webp"><img src="img/works/plans.jpg" alt="Plans" class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Plans</div>
+			</a>
+			<a href="#!" class="portfolio__item">
+				<picture><source srcset="img/works/ipad.webp" type="image/webp"><img src="img/works/ipad.jpg" alt="Ipad"class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Devices</div>
+			</a>
+			<a href="#!" class="portfolio__item mac-row">
+				<picture><source srcset="img/works/mac.webp" type="image/webp"><img src="img/works/mac.jpg" alt="Mac"class="portfolio__item_img"></picture>
+				<div class="portfolio__item-text">Apple</div>
+			</a>
 		</div>
 	</div>
 
@@ -374,10 +392,16 @@
 					<div class="contacts__trigers">
 						<button class="contacts__btn dis_btn" id="contacts__btn" disabled>Отправить сообщение</button>
 						<div class="contacts__policy">
-							<input required type="checkbox" class="js-check" onchange="document.getElementById('contacts__btn').disabled = !this.checked;">
-							<span class="contacts__policy_text" id="policy">
-								Я согласен(а) с <a href="policy.html" target="_blank" title="Ознакомиться с политикой">политикой конфиденциальности</a>
-							</span>
+							
+							<label class="custom-checkbox">
+								<input required type="checkbox" class="js-check" onchange="document.getElementById('contacts__btn').disabled = !this.checked;">
+								<div class="checkbox">
+									<svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 72 72" width="128px" height="128px"><path d="M57.658,12.643c1.854,1.201,2.384,3.678,1.183,5.532l-25.915,40c-0.682,1.051-1.815,1.723-3.064,1.814	C29.764,59.997,29.665,60,29.568,60c-1.146,0-2.241-0.491-3.003-1.358L13.514,43.807c-1.459-1.659-1.298-4.186,0.36-5.646	c1.662-1.46,4.188-1.296,5.646,0.361l9.563,10.87l23.043-35.567C53.329,11.971,55.806,11.442,57.658,12.643z"/></svg>
+								</div>
+								<span class="contacts__policy_text" id="policy">
+									Я согласен(а) с <a href="policy.html" target="_blank" title="Ознакомиться с политикой">политикой конфиденциальности</a>
+								</span>
+							</label>
 						</div>
 					</div>
 				</form>
@@ -392,6 +416,6 @@
 		<img src="img/icons/up-arrow.svg" alt="up">
 	</a>
 	
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js?_v=20221009142930"></script>
-	<script src="js/script.js?_v=20221009142930"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js?_v=20221010120057"></script>
+	<script src="js/script.js?_v=20221010120057"></script>
 </html> 
