@@ -1753,16 +1753,6 @@ body {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
-  }
-
-  .contacts__btn {
-    width: 219px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 450px) {
-  .contacts__policy {
     width: 180px;
     margin: 0 auto;
   }
@@ -1772,6 +1762,12 @@ body {
     margin: 0 auto;
   }
 
+  .custom-checkbox .checkbox {
+    width: 28.8px;
+  }
+}
+
+@media (max-width: 450px) {
   .pageup {
     bottom: 20px;
     right: 20px;
