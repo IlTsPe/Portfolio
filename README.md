@@ -6,4 +6,4 @@
 
 Библиотеки JS (JS library): jquery
 
-GitHub Pages: [[https://iltspe.github.io/CREATEX-Online-School/]()](https://iltspe.github.io/Portfolio/)
+GitHub Pages: https://iltspe.github.io/Portfolio/
